@@ -1,0 +1,603 @@
+
+
+@media screen and (max-width: 1400px) {
+	header .banner-home .desc .title-block h2 {     font-size: 78px;  line-height: 90px; }
+	header .banner-home .desc .contain { width: 500px; padding-left:200px; }
+	.our-story-section .container .desc-box .text-block h2{
+	    font-size: 45px;
+	}
+	.our-service-section .container .title-block h2{
+		font-size: 45px;
+	}
+	.our-service-section .container .title-block h2::after {
+    	right: 48%;
+	}
+	.our-service-section .container .all-boxes .box .desc h2{
+		font-size: 20px;
+	}
+	.book-appointment-section .container .desc-box .text-block h2{
+		font-size: 45px;
+	}
+	.book-appointment-section .container .desc-box .text-block .booking-btn a{
+		padding: 15px 60px;
+	}
+	.experience-section .container .title-block h2{
+		font-size: 45px;
+	}
+	.experience-section .container .title-block h2::after{
+		right: 50%;
+	}
+	.experience-section .slider-btn{
+		width: calc(100% + 80px);
+    	left: -40px;
+	}
+}
+
+
+@media screen and (max-width: 1200px){
+	header .banner-home .desc .contain{
+		padding-left: 90px;
+	}
+	.our-story-section{
+		padding: 0;
+	}
+	.our-story-section .container .desc-box{
+		display: block;
+		padding: 0 50px;
+	}
+	.our-story-section .container .desc-box .text-block{
+		width: 100%;
+		text-align: left;
+	}
+	.our-story-section .container .desc-box .text-block .para-1{
+		padding: 0;
+	}
+	.our-story-section .container .desc-box .text-block h2::after{
+		right: 47%;
+		left: 0;
+	}
+	.our-story-section .container .desc-box .text-block .know-more-btn a{
+		padding: 15px 60px;
+	}
+	.our-story-section .container .desc-box .image-block .all-images{
+		margin-top: 60px;
+    	align-items: center;
+    	gap: 60px;
+
+	}
+	.our-story-section .container .desc-box .about-block{
+		position: initial;
+		box-shadow: none;
+		margin: 0;
+		width: 50%;
+	}
+
+	.our-service-section .container .title-block{
+		text-align: left;
+    	padding: 0 50px;
+	}
+	.our-service-section .container .title-block h2::after{
+		left: 0;
+	}
+	.our-service-section .container .title-block p{
+		padding: 30px 0;
+	}
+	.our-service-section .container .all-boxes{
+		padding: 0 50px;
+	}
+
+	.experience-section .container .title-block{
+		text-align: left;
+		padding: 0 50px;
+	}
+	.experience-section .container .title-block h2::after{
+		left: 0;
+	}
+	.experience-section .container .title-block p{
+		padding: 30px 0;
+	}
+	.experience-section .container .all-boxes{
+		padding: 0 100px;
+	}
+
+	.experience-section .slider-btn .fa-chevron-left{
+		left: 40px;
+	}
+
+	.experience-section .slider-btn .fa-chevron-right{
+		right: 40px;
+	}
+
+	.footer-section .container{
+		padding: 0 50px;
+	}
+
+	.our-story-section .container .desc-box .image-block .all-images .two-image{ justify-content:initial; }
+
+	.testimonial-section .image-block .desc .text-block{
+		font-size: 16px;
+	}
+	.testimonial-section .image-block .desc .icon-block{
+		font-size: 50px;
+	}
+	.testimonial-section .image-block .slider-btn .fa-chevron-left{
+		left: 40px;
+	}
+	.testimonial-section .image-block .slider-btn .fa-chevron-right{
+		right: 40px;
+	}
+
+	.book-appointment-section .container .desc-box{
+		padding: 0 50px;
+	}
+	.our-service-section .slider-btn .fa-chevron-right{
+		right: 0;
+	}
+	.our-service-section .slider-btn .fa-chevron-left{
+		left: 0;
+	}
+	.our-service-section .slider-btn{
+		left: 10px;
+    	width: calc(100% - 20px);
+	}
+
+	.experience-section{
+		padding: 60px 0 0 0;
+	}
+	.experience-section .slider-btn{
+		width: calc(100% - 40px);
+	    left: 20px;
+	    top: 65%;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	.our-story-section{
+		padding: 90px 0 0 0;
+	}
+	.our-story-section .container .desc-box{
+		padding: 0 50px;
+	}
+	.our-story-section .container .desc-box .image-block .all-images{
+		gap:30px;
+		justify-content: center;
+		align-items: normal;
+	}
+	.our-service-section{
+		padding: 90px 0 90px 0;
+	}
+	.book-appointment-section{
+		padding: 90px 0 0 0;
+	}
+	.experience-section{
+		padding: 90px 0 0 0;
+	}
+	.footer-section{
+		padding: 90px 0 70px 0;
+	}
+}
+
+
+@media screen and (max-width: 991px){
+
+	header .banner-home .desc .title-block h2{
+		font-size: 60px;
+    	line-height: 60px;
+	}
+	header .banner-home .desc .button-block .book-btn a{
+		padding: 10px 25px;
+    	font-size: 14px;
+
+	}
+	header .banner-home .desc .button-block .social-media-links ul li a{
+		font-size: 14px;
+	    color: #fff;
+	    width: 30px;
+	    height: 30px;
+	}
+	header .banner-home .desc{
+		top: 150px;
+	}
+	.our-service-section .container .all-boxes{
+		flex-wrap: wrap;
+	}
+	.our-service-section .container .all-boxes .box{
+		width: 100%;
+	}
+	.book-appointment-section .container .desc-box{
+		padding: 0 30px;
+		gap:40px;
+	}
+	.experience-section .slider-btn{
+		width: calc(100% - 80px);
+	    left: 40px;
+	    z-index: 1;
+	}
+	header .header-top .col-3 .menu-block{
+		width: 0px;
+
+    position: absolute;
+
+    background: #ff4723;
+    top: 108px;
+
+    right: 0;
+    transition: all 0.3s ease-in-out;
+	}
+	header .header-top .col-3 .menu-block.active{
+		width: 300px;
+	}
+	header .header-top .col-3 .menu-block ul{
+		display: block;
+		text-align: center;
+	}
+	header .header-top .col-3 .contact-block{
+		display: none;
+	}
+	header .header-top .row .menu-btn{
+		display: block;
+		right: 70px;
+    	top: 40px;
+	}
+	header .banner-home .desc .button-block .social-media-links ul li a{
+		color: #565656;
+	}
+		header .banner-home .desc .contain{
+		padding-left:20px;
+		width: 440px;
+	}
+	header .banner-home .desc .title-block h2{
+		font-size: 60px;
+    	line-height: 60px;
+	}
+	.testimonial-section .image-block{
+		height: 300px;
+	}
+	.testimonial-section .image-block img{
+		height: 100%;
+	}
+	.testimonial-section .image-block .desc .text-block{
+		padding: 22px 140px;
+	}
+	.our-story-section .container .desc-box .image-block .all-images{
+		display: block;
+	}
+	.our-story-section .container .desc-box .about-block{
+		margin: 30px 0 0 0;
+    	width: 100%;
+	}
+	.our-story-section .container .desc-box .image-block .all-images .two-image{
+		justify-content: center;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	header .banner-home .desc .contain{
+		padding-left:0;
+		width: 400px;
+	}
+	header .banner-home .desc .title-block h2{
+		font-size: 45px;
+    	line-height: 45px;
+	}
+	header .banner-home .desc .button-block .social-media-links ul li a{
+		color: #565656;
+	}
+	header .banner-home .desc{
+		top: 115px;
+	}
+	.our-story-section .container .desc-box .text-block h2{
+		font-size: 35px;
+	}
+	.our-story-section .container .desc-box .text-block h2::after{
+		border-bottom: 3px solid var(--icon-color);
+	}
+	.our-story-section .container .desc-box .text-block .know-more-btn a{
+		padding: 10px 40px;
+	}
+	.our-story-section .container .desc-box .image-block .all-images{
+		display: block;
+	}
+	.our-story-section .container .desc-box .about-block{
+		margin: 30px 0 0 0;
+    	width: 100%;
+	}
+	.our-service-section .container .title-block h2{
+		font-size: 35px;
+	}
+	.our-service-section .container .title-block h2:after{
+		border-bottom: 3px solid var(--icon-color);
+	}
+	.testimonial-section .image-block .desc .text-block{
+		padding: 15px 90px;
+	}
+	.testimonial-section .image-block .desc .image-title img{
+		width: 60px;
+	    height: 60px;
+	    border: 3px solid white;
+	    outline: 3px solid #CD3A1D;
+	}
+	.desc .image-title h3{
+		font-size: 16px;
+	}
+	.book-appointment-section .container .desc-box{
+		flex-direction: column;
+	}
+	.book-appointment-section .container .desc-box .text-block{
+		width: 100%;
+	}
+	.book-appointment-section .container .desc-box .text-block p{
+		padding: 30px 0 0 0;
+	}
+	.book-appointment-section .container .desc-box .text-block h2{
+		font-size: 35px;
+	}
+	.book-appointment-section .container .desc-box .text-block h2::after{
+		border-bottom: 3px solid var(--icon-color);
+	}
+	.book-appointment-section .container .desc-box .image-block{
+		width: 100%;
+		text-align: center;
+	}
+	.book-appointment-section .container .desc-box .image-block img{
+		max-width: 100%;
+	}
+	.book-appointment-section .container .desc-box .text-block .booking-btn a{
+		padding: 10px 30px;
+	}
+	.book-appointment-section .container .desc-box .image-block::after{
+		display: none;
+	}
+	.experience-section .container .title-block h2{
+		font-size: 35px;
+	}
+	.experience-section .container .title-block h2::after{
+		border-bottom: 3px solid var(--icon-color);
+	}
+	.experience-section .container .all-boxes .box .desc{
+		bottom: -8px;
+    	left: 10px;
+	}
+	.experience-section .container .all-boxes .box .desc h2{
+		font-size: 20px;
+		line-height: 9px;
+	}
+	.experience-section .container .all-boxes .box .desc p{
+		font-weight: 400;
+	    font-size: 12px;
+	    line-height: 15px;
+	}
+	.experience-section .container .all-boxes .box .icon-block i{
+		width: 20px;
+	    height: 20px;
+	    padding: 8px;
+	}
+	.experience-section .container .all-boxes .box .icon-block i.fa-brands{
+		font-size: 10px;
+	}
+	.experience-section .container .all-boxes .box .icon-block{
+		bottom: -40px;
+    	right: 10px;
+	}
+	.experience-section .container .all-boxes .box:hover .desc{
+		transform: translateY(-15px);
+	}
+	.experience-section .container .all-boxes .box:hover .icon-block{
+		transform: translateY(-70px);
+	}
+	.experience-section .slider-btn{
+		top: 70%;
+	}
+	.testimonial-section .image-block{
+		height: 300px;
+	}
+	.testimonial-section .image-block img{
+		height: 100%;
+	}
+	.footer-section .container .all-boxes .box .logo-block{
+		max-width: 80px;
+	}
+	.footer-section .container .all-boxes .box p{
+		line-height: 25px;
+	    padding: 12px 0 0 0;
+	}
+	.footer-section .container .all-boxes{
+		flex-wrap: wrap;
+	}
+	.footer-section .container .all-boxes .box{
+		width: 46%;
+	}
+	.footer-section .container .all-boxes .box ul li{
+		padding-bottom: 10px;
+	}
+	.footer-section .container .all-boxes .box p.follow{
+		font-size: 16px;
+		line-height: 50px;
+		padding: 0;
+	}
+	.footer-section .container .all-boxes .box .title-block h2{
+		padding: 0 0 15px 0;
+	}
+	.copyright .container h2{
+		font-size: 16px;
+	    line-height: 20px;
+	    padding: 15px 0;
+	}
+}
+
+@media screen and (max-width: 575px){
+	header .header-top .row .col-3 .logo-block{
+		max-width: 70px;
+	}
+	header .banner-home .desc .contain{
+		position: absolute;
+	    top: 12px;
+	    right: 37px;
+	}
+	header .banner-home .desc .title-block h2{
+		font-size: 22px;
+    	line-height: 25px;
+    	letter-spacing: 1px;
+	}
+	header .banner-home .desc .button-block .book-btn a{
+		padding: 4px 8px;
+	}
+	header .banner-home .desc .button-block .social-media-links ul{
+		gap:10px;
+	}
+	header .banner-home .desc .button-block{
+		align-items: flex-start;
+		gap: 25px;
+    	flex-direction: column;
+	}
+	.our-story-section{
+		padding: 45px 0 0 0;
+	}
+	.our-service-section{
+		padding: 45px 0 0 0;
+	}
+	.book-appointment-section{
+		;
+	}
+	.experience-section{
+		padding: 45px 0 0 0;
+	}
+	.testimonial-section .image-block .desc .text-block{
+		padding: 9px 50px;
+	}
+	.testimonial-section .image-block .desc .text-block p{
+		font-size: 14px;
+	}
+	.testimonial-section .image-block .desc .icon-block{
+		font-size: 25px;
+	}
+	.testimonial-section .image-block{
+		height: 300px;
+	}
+	.testimonial-section .image-block img{
+		height: 100%;
+	}
+	.experience-section .container .all-boxes{
+		padding: 0px 45px;
+	}
+	.experience-section .slider-btn{
+		width: calc(100% - 26px);
+    	left: 13px;
+	}
+	.footer-section .container .all-boxes{
+		gap:30px;
+	}
+	.footer-section{
+		padding: 45px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 480px){
+	header .banner-home .desc .button-block .social-media-links{
+		display: none;
+	}
+	header .banner-home .desc{
+		top: 140px;
+	}
+	header .banner-home .desc .title-block h2{
+		font-size: 18px;
+	    line-height: 25px;
+	    letter-spacing: 4px;
+	}
+	header .banner-home .desc .button-block .book-btn a{
+		font-size: 12px;
+		text-transform: capitalize;
+		padding: 9px 19px;
+	}
+	header .banner-home .desc .contain{
+		right: -50px;
+	}
+
+	.our-story-section .container .desc-box .text-block h2{
+		font-size: 25px;
+	}
+	.our-story-section .container .desc-box .text-block h2::after{
+		width: 55px;
+	}
+	.our-story-section .container .desc-box .text-block p{
+		font-size: 14px;
+	}
+	.our-story-section .container .desc-box .text-block .para-1{
+		margin: 0 0 25px 0;
+	}
+	.our-story-section .container .desc-box .text-block .know-more-btn a{
+		padding: 8px 24px;
+	}
+	.our-story-section .container .desc-box .image-block .all-images .two-image{
+		flex-direction: column;
+	}
+	.our-story-section .container .desc-box .image-block .all-images .two-image .lt-image-block{
+		width: 100%;
+	}
+	.our-service-section .container .title-block h2{
+		font-size: 25px;
+	}
+	.our-service-section .container .title-block h2::after{
+		width: 55px;
+	}
+	.our-service-section .container .title-block p{
+		font-size: 14px;
+		padding: 15px 0;
+	}
+	.testimonial-section .image-block .slider-btn .fa-chevron-left,
+	.testimonial-section .image-block .slider-btn .fa-chevron-right{
+		top: 65%;
+	}
+	.book-appointment-section .container .desc-box .text-block h2{
+		font-size: 25px;
+	}
+	.book-appointment-section .container .desc-box .text-block h2::after{
+		width: 55px;
+	}
+	.book-appointment-section .container .desc-box .text-block p{
+		font-size: 14px;
+		padding: 15px 0 0 0;
+	}
+	.book-appointment-section .container .desc-box .text-block .booking-btn a{
+		padding: 7px 15px;
+	}
+	.experience-section .container .title-block h2{
+		font-size: 25px;
+	}
+	.experience-section .container .title-block h2::after{
+		width: 55px;
+	}
+	.experience-section .container .title-block p{
+		font-size: 14px;
+		padding: 15px 0;
+	}
+	.experience-section .container .all-boxes{
+		gap: 6px;
+	}
+	.experience-section .container .all-boxes .box .icon-block{
+		bottom: 41px;
+		flex-direction: row;
+	}
+	.experience-section .container .all-boxes .box .desc h2{
+		font-size: 16px;
+	}
+}
+
+
+@media screen and (max-width: 320px){
+	.our-story-section .container .desc-box .about-block .box-1 i{
+		font-size: 30px;
+	}
+	.our-story-section .container .desc-box .about-block .box-2{
+		padding: 15px 20px;
+	}
+	.our-story-section .container .desc-box .about-block .box-1 p,
+	.our-story-section .container .desc-box .about-block .box-2 p{
+		font-size: 14px;
+	}
+	.our-service-section{
+		padding: 55px 0 30px 0;
+	}
+}
+
